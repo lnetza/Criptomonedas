@@ -24,8 +24,7 @@ const Select = styled.select`
 const useMoneda = (label,stateInicial,opcionesMonedas)=>{
     //State de nuestro custom hook
     const [state,actualizarState] = useState(stateInicial);
-    const [error,guardarError] = useState(false);
-
+    
     //Cuerpo del STATE
     const Seleccionar = () =>(
         <Fragment>
